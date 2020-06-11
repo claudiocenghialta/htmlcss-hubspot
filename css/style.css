@@ -10,25 +10,84 @@
     clear: both;
 }
 
-.maxwidth {
-    max-width: 1080px; 
+body {
+    font-family: 'Roboto', sans-serif;
+
 }
+
+
+.maxwidth {
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
 header {
+    color: #33475b;
 
     /* da eliminare */
     /* height: 500px; */
 }
 
+                                        /* inizio topbar */
 .topbar {
     position: fixed;
     top: 0;
     width: 100%;
     height: 90px;
     background-color: #f5f8fa;
-
+    text-align: center;
     /* da eliminare */
     border: 1px solid black;
 }
+.topbar-left {
+    float: left;
+    line-height: 90px;
+}
+.topbar-left-list {
+    padding: 30px 0;
+    line-height: 30px;
+}
+.topbar-left li {
+    float: left;
+    list-style: none;
+    padding: 0 25px;
+}
+.topbar-left li:not(:last-child) {
+    border-right: 1px solid #899397;
+}
+
+.topbar-right {
+    float: right;
+}
+
+.topbar-right-list {
+    padding: 30px 0;
+    line-height: 30px;
+}
+
+.topbar-right-list li {
+    float: left;
+    list-style: none;
+    padding: 0 10px;
+}
+
+.btn-small {
+    padding: 5px;
+}
+.btn-big {
+    padding: 10px;
+}
+.btn-white {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+}
+.btn-green {
+    background-color: #ff7a59;
+    border: 1px solid #ff7a59;
+}
+
+                                        /* fine topbar */
 
 nav {
     height: 180px;
@@ -36,6 +95,11 @@ nav {
 
         /* da eliminare */
         border: 1px solid black;
+}
+
+nav a, .topbar a {
+    text-decoration: none;
+    color: #33475b;
 }
 
 .jumbotron {
