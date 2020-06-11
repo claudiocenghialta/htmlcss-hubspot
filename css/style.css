@@ -15,7 +15,6 @@ body {
 
 }
 
-
 .maxwidth {
     width: 90%;
     max-width: 1080px;
@@ -29,6 +28,28 @@ header {
     /* height: 500px; */
 }
 
+                                /* inizio buttons */
+.btn-small {
+    padding: 8px 5px;
+    border-radius: 5px;
+}
+.btn-big {
+    padding: 10px;
+    border-radius: 5px;
+}
+.btn-white {
+    background-color: #ffffff;
+    border: 1px solid #ff7a59;
+    color: #ff7a59;
+}
+.btn-green {
+    background-color: #ff7a59;
+    border: 1px solid #ff7a59;
+    color: #ffffff;
+}
+                                /* fine buttons */
+
+
                                         /* inizio topbar */
 .topbar {
     position: fixed;
@@ -38,7 +59,7 @@ header {
     background-color: #f5f8fa;
     text-align: center;
     /* da eliminare */
-    border: 1px solid black;
+    border-bottom: 1px solid #cbd6e2;
 }
 .topbar-left {
     float: left;
@@ -70,21 +91,6 @@ header {
     float: left;
     list-style: none;
     padding: 0 10px;
-}
-
-.btn-small {
-    padding: 5px;
-}
-.btn-big {
-    padding: 10px;
-}
-.btn-white {
-    background-color: #ffffff;
-    border: 1px solid #ffffff;
-}
-.btn-green {
-    background-color: #ff7a59;
-    border: 1px solid #ff7a59;
 }
 
                                         /* fine topbar */
