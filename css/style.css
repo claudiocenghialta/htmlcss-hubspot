@@ -44,12 +44,15 @@ header a {
 
                                 /* inizio buttons */
 .btn-small {
-    padding: 8px 5px;
+    padding: 0 10px;
     border-radius: 5px;
+    font-size: 12px;
+    line-height: 28px;
 }
 .btn-big {
-    padding: 10px;
+    padding: 20px 15px;
     border-radius: 5px;
+    font-size: 18px;
 }
 .btn-white {
     background-color: #ffffff;
@@ -70,19 +73,19 @@ header a {
     position: fixed;
     top: 0;
     width: 100%;
-    height: 90px;
+    height: 78px;
     background-color: #f5f8fa;
     text-align: center;
-    /* da eliminare */
     border-bottom: 1px solid #cbd6e2;
+    z-index: 999;
 }
 .topbar-left {
     float: left;
-    line-height: 90px;
+    line-height: 78px;
 }
 .topbar-left-list {
-    padding: 30px 0;
-    line-height: 30px;
+    padding: 25px 0;
+    line-height: 28px;
 }
 .topbar-left li {
     float: left;
@@ -98,8 +101,8 @@ header a {
 }
 
 .topbar-right-list {
-    padding: 30px 0;
-    line-height: 30px;
+    padding: 25px 0;
+    line-height: 28px;
 }
 
 .topbar-right-list li {
@@ -112,27 +115,27 @@ header a {
 
                                         /* inizio navbar */
 nav {
-    height: 180px;
+    height: 163px;
     background-color: #ffffff;
-    padding-top: 90px;
-        /* da eliminare */
-        border: 1px solid black;
+    padding-top: 78px;
+
 }
 
 .navbar-left {
     float: left;
-    padding: 30px 0;
+    padding: 28px 0;
 }
 
 #img-logo {
-    height: 30px;
+    height: 28px;
     object-fit: contain;
     object-position: left;
 }
 
 .navbar-right {
     float: right;
-    padding: 30px 0;
+    padding: 28px 0;
+    line-height: 28px;
 }
 
 .navbar-right li {
@@ -143,12 +146,48 @@ nav {
 
 
                                         /* fine navbar */
+
+                                        /* inizio jumbotron */
 .jumbotron {
     border-bottom: 3px solid #33475b;
-    /* da eliminare */
+    background-image: url('../img/jumbotron.png');
+    background-size: cover;
+    background-position: 45% bottom;
+    background-repeat: no-repeat;
     background-color: #fff3ee;
-    height: 600px;
+    height: 590px;
 }
+.jumbotron .maxwidth {
+    position: relative;
+    height: 100%;
+}
+.jumbotron-left {
+    width: 40%;
+    position: absolute;
+    top: 10%;
+}
+.jumbotron-left h1 {
+    font-size: 50px;
+    line-height: 1.3em;
+    margin-bottom: 15px;
+}
+.jumbotron-left>p {
+    line-height: 1.6em;
+    font-size: 18px;
+}
+.getfree {
+    width: 224px;
+}
+.getfree button {
+    margin: 20px 0;
+}
+
+.getfree p {
+line-height: 1.5em;
+}
+
+
+                                        /* fine jumbotron */
 
 .cards {
     background-color: #f5f8fa;
