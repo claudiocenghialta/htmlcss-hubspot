@@ -42,7 +42,7 @@ header a {
 }
 
 
-                                /* inizio buttons */
+                                /* start buttons */
 .btn-small {
     padding: 0 10px;
     border-radius: 5px;
@@ -64,11 +64,11 @@ header a {
     border: 1px solid #ff7a59;
     color: #ffffff;
 }
-                                /* fine buttons */
+                                /* end buttons */
 
 
 
-                                        /* inizio topbar */
+                                        /* start topbar */
 .topbar {
     position: fixed;
     top: 0;
@@ -111,9 +111,9 @@ header a {
     padding: 0 10px;
 }
 
-                                        /* fine topbar */
+                                        /* end topbar */
 
-                                        /* inizio navbar */
+                                        /* start navbar */
 nav {
     height: 163px;
     background-color: #ffffff;
@@ -145,9 +145,9 @@ nav {
 }
 
 
-                                        /* fine navbar */
+                                        /* end navbar */
 
-                                        /* inizio jumbotron */
+                                        /* start jumbotron */
 .jumbotron {
     border-bottom: 3px solid #33475b;
     background-image: url('../img/jumbotron2.png');
@@ -188,9 +188,9 @@ line-height: 1.5em;
 }
 
 
-                                        /* fine jumbotron */
+                                        /* end jumbotron */
 
-                                        /* inizio cards */
+                                        /* start cards */
 .cards {
     background-color: #f5f8fa;
     padding: 100px 0 100px 0;
@@ -254,6 +254,12 @@ line-height: 1.5em;
     text-transform: uppercase;
     padding-bottom: 30px;
 }
+.card-large-right h4::after{
+    content: '';
+    width: 300px;
+    display: inline-block;
+    border-bottom: 1px solid #e0e6ed;
+}
 .checklist {
     list-style: none;
 }
@@ -313,13 +319,40 @@ line-height: 1.5em;
 }
 
 
-                                        /* fine cards */
+                                        /* end cards */
+
+                                        /* start data */
 .data {
     background-color: #00aeb4;
-    /* da eliminare */
-    height: 600px;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+
+}
+.data .maxwidth {
+    /* position: relative; */
+}
+.data-title {
+    /* position: absolute;
+    top: 50%;
+    height: 100%; */
+}
+.data-title h2 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.5em;
+}
+.data-title p {
+    font-size: 18px;
+    line-height: 1.5em;
+    padding: 25px 0;
+    font-weight: 300;
+}
+.table-cell img {
+    height: 40px;
 }
 
+                                        /* end data */
 .customers {
     background-color: #ffffff;
     /* da eliminare */
