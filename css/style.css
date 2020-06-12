@@ -325,7 +325,7 @@ line-height: 1.5em;
 .data {
     background-color: #00aeb4;
     color: white;
-    padding: 100px 0;
+    padding: 130px 0;
     text-align: center;
 
 }
@@ -333,9 +333,8 @@ line-height: 1.5em;
     /* position: relative; */
 }
 .data-title {
-    /* position: absolute;
-    top: 50%;
-    height: 100%; */
+    width: 80%;
+    margin: 0 auto;
 }
 .data-title h2 {
     font-size: 34px;
@@ -345,20 +344,47 @@ line-height: 1.5em;
 .data-title p {
     font-size: 18px;
     line-height: 1.5em;
-    padding: 25px 0;
-    font-weight: 300;
+    padding: 25px 0 80px;
+    font-weight: 500;
 }
-.table-cell img {
-    height: 40px;
+.table-cell {
+    float: left;
+    width: 25%;
+    margin: 0 auto;
+    padding: 40px 0;
+    border-right: 1px solid white;
+}
+.firstrow .table-cell {
+    border-bottom: 1px solid white;
+}
+.table-cell:last-child {
+    border-right: none;
 }
 
+.table-cell img {
+    height: 40px;
+    display: inline-block;
+}
+.table-cell-data {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.60;
+}
+.table-cell-description {
+    font-size: 18px;
+    font-weight: 600;
+}
                                         /* end data */
+
+                                        /* start customers */
 .customers {
     background-color: #ffffff;
     /* da eliminare */
     height: 600px;
 }
 
+
+                                        /* end customers */
 footer {
     background-color: #33475b;
 
