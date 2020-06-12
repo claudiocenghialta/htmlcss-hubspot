@@ -454,9 +454,45 @@ font-size: 14px;
 }
 
                                         /* end customers */
+
+                                        /* start footer */
 footer {
     background-color: #33475b;
+    color: #cbd6e2;
+    font-weight: 700;
 
     /* da eliminare */
     height: 600px;
 }
+footer a {
+    text-decoration: none;
+    color: #cbd6e2;
+}
+.footer-menu-column {
+    float: left;
+    width: 25%;
+}
+.footer-menu-column li {
+    list-style: none;
+    padding: 20px;
+}
+.social-icons i {
+    margin: 10px;
+}
+
+
+.footer-languages {
+
+    border-bottom: 1px solid #7c98b6;
+}
+.footer-languages ul {
+    text-align: center;
+    margin: 20px 200px;
+}
+.footer-languages li {
+    width: 16.6666%;
+    float: left;
+    list-style: none;
+    padding: 30px;
+}
+                                        /* end footer */
