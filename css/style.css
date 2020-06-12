@@ -150,7 +150,7 @@ nav {
                                         /* inizio jumbotron */
 .jumbotron {
     border-bottom: 3px solid #33475b;
-    background-image: url('../img/jumbotron.png');
+    background-image: url('../img/jumbotron2.png');
     background-size: cover;
     background-position: 45% bottom;
     background-repeat: no-repeat;
@@ -163,6 +163,7 @@ nav {
 }
 .jumbotron-left {
     width: 40%;
+    min-width: 430px;
     position: absolute;
     top: 10%;
 }
@@ -189,12 +190,28 @@ line-height: 1.5em;
 
                                         /* fine jumbotron */
 
+                                        /* inizio cards */
 .cards {
     background-color: #f5f8fa;
+    padding: 100px 0 50px 0;
     /* da eliminare */
     height: 800px;
 }
 
+.cards-title {
+    width: 33.3333%;
+    float: left;
+
+}
+
+.card {
+    width: 33.3333%;
+    float: left;
+}
+
+
+
+                                        /* fine cards */
 .data {
     background-color: #00aeb4;
     /* da eliminare */
