@@ -460,9 +460,6 @@ footer {
     background-color: #33475b;
     color: #cbd6e2;
     font-weight: 700;
-
-    /* da eliminare */
-    height: 600px;
 }
 footer a {
     text-decoration: none;
@@ -495,4 +492,23 @@ footer a {
     list-style: none;
     padding: 30px;
 }
+.footer-legal {
+    padding: 50px 0;
+}
+
+.footer-legal-left {
+    float: left;
+}
+.footer-legal-left div {
+    padding: 20px 0;
+}
+.footer-legal-right {
+    float: right;
+}
+.footer-legal-right li {
+    list-style: none;
+    float: left;
+    padding: 30px;
+}
+
                                         /* end footer */
