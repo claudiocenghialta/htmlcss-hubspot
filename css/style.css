@@ -176,7 +176,7 @@ nav {
     line-height: 1.6em;
     font-size: 18px;
 }
-.getfree {
+.jumbotron .getfree {
     width: 224px;
 }
 .getfree button {
@@ -185,6 +185,7 @@ nav {
 
 .getfree p {
 line-height: 1.5em;
+font-size: 14px;
 }
 
 
@@ -379,10 +380,78 @@ line-height: 1.5em;
                                         /* start customers */
 .customers {
     background-color: #ffffff;
-    /* da eliminare */
-    height: 600px;
+    color: #33475b;
+}
+.customers-list {
+    padding: 130px 60px 50px 60px;
+}
+.customers-numbers {
+    width: 30%;
+    float: left;
+    font-size: 20px;
+
+}
+.customers-numbers p {
+    line-height: 2;
+}
+.customers-logo {
+    float: right;
+    width: 60%;
+    padding: 20px 0;
+}
+#n-of-customers {
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+#n-of-coutries {
+    font-size: 28px;
+    font-weight: bold;
+}
+.customers-logo-img {
+    float: left;
+    width: 25%;
+    height: 70px;
+    padding: 20px;
+}
+.customers-logo-img img {
+    width: 100%;
+    max-height: 100%;
+}
+.customers-cta {
+    margin: 50px 0;
 }
 
+.customers-cta-left {
+    width: 50%;
+    float: left;
+}
+.customers-cta-title h2 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.5em;
+}
+.customers-cta-title p {
+    font-size: 18px;
+    line-height: 1.5em;
+    padding: 25px 0 80px;
+    font-weight: 500;
+}
+
+.customers-cta-right {
+    width: 50%;
+    height: 500px;
+    float: right;
+    padding: 50px 0 50px 50px;
+    position: relative;
+}
+.customers-cta-right img {
+    height: 100%;
+    /* width: 100%; */
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 
                                         /* end customers */
 footer {
