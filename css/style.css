@@ -193,55 +193,123 @@ line-height: 1.5em;
                                         /* inizio cards */
 .cards {
     background-color: #f5f8fa;
-    padding: 100px 0 50px 0;
-    /* da eliminare */
-    /* height: 800px; */
+    padding: 100px 0 100px 0;
 }
 
 .cards-title {
-    /* width: 33.3333%; */
-    /* float: left; */
-    /* padding-right: 10px; */
     color: #33475b;
     text-align: center;
-
 }
 .cards-title img {
     height: 200px;
-
 }
 .cards-title h2 {
     font-size: 34px;
     font-weight: 700;
     line-height: 1.5em;
-
 }
 .cards-title p {
     font-size: 18px;
     line-height: 1.5em;
     padding-top: 25px;
     font-weight: 300;
-
 }
 
 .card-large {
     width: 100%;
     background-color: white;
     margin: 30px 0;
+    padding: 40px;
+    color: #33475b;
+    box-shadow: 0 10px 50px -5px rgba(51,71,91,0.12);
 }
+.card-large-left {
+    float: left;
+    width: 25%;
+    padding: 25px;
+}
+
 .card-large img {
-    height: 150px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.card-large button {
+    width: 100%;
+}
+.card-large-right  {
+    float: left;
+    width: 75%;
+    padding: 25px;
+}
+.card-large-right h3 {
+    font-size: 26px;
+}
+.card-large-right p {
+    margin: 30px 0;
+    font-size: 16px;
+}
+.card-large-right h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+.checklist {
+    list-style: none;
+}
+.checklist::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f058";
+    padding-right: 10px;
+    font-weight: 900;
+    font-size: 1.45rem;
+    color: #ff7a59;
+    transform: translateY(-50%);
+}
+.card-large-right li {
+    float: left;
+    padding-right: 10px;
+    font-size: 18px;
 }
 .card-small {
-    width: 33.3333%;
+    width: 31%;
+    height: 710px;
     float: left;
     background-color: white;
     padding: 30px;
     margin-bottom: 10px;
-    margin: 30px 20px 30px 0;
+    margin: 30px 0px;
+    text-align: center;
+    color: #33475b;
+    box-shadow: 0 10px 50px -5px rgba(51,71,91,0.12);
+}
+.card-small:nth-child(2) {
+    margin: 30px 35px;
 }
 .card-small img {
     height: 150px;
+    margin-bottom: 10px;
+}
+.card-small h3 {
+    font-size: 26px;
+}
+.card-small p {
+    font-size: 16px;
+    padding: 30px 0;
+    border-bottom: 1px solid #e0e6ed;
+    text-align: left;
+}
+.card-small h4 {
+    font-size: 18px;
+    padding: 30px 0;
+    text-transform: uppercase;
+}
+.card-small li {
+    text-align: left;
+    padding-bottom: 15px;
+}
+.card-small button {
+    margin-top: 20px;
 }
 
 
