@@ -183,7 +183,7 @@ line-height: 28px;
 
 }
 
-.navbar-right li {
+.navbar-right>li {
 float: left;
 list-style: none;
 padding: 0 15px;
@@ -205,28 +205,56 @@ position: relative;
 .wide-column-menu li:not(:last-child) {
     border-bottom: 1px solid #cbd6e2;
 }
+.medium-column-menu {
+    width: 700px;
+    padding: 0 20px;
+    right: 0;
+}
+.medium-column-menu li {
+    margin: 10px 0;
+    padding: 10px 0;
+}
 
-.dropdown-item>li:hover {
-    background-color: #e5f5f8;
+.dropdown-item>li:hover:not(.column-container){
+    background-color: #b8e6ee;
 }
 .three-column-item {
     float: left;
     width: 33.3333%;
-    padding: 0 25px;
+    padding: 20px 25px;
+    /* height: 170px; */
+    list-style: none;
+}
+.three-column-item li {
+    list-style: none;
+}
+.three-column-item:hover {
+    background-color: #b8e6ee;
 }
 .three-column-item h4 {
+    font-size: 18px;
+}
+.two-column-item {
+    float: left;
+    width: 50%;
+    padding: 20px 25px;
+    height: 170px;
+}
+.two-column-item:hover {
+    background-color: #b8e6ee;
+}
+.two-column-item h4 {
     font-size: 18px;
 }
 
 #free-crm {
     padding: 10px;
-    background-color: #e5f5f8;
     text-align: center;
 }
 .new {
     display: inline-block;
-    height: 40px;
-    line-height: 40px;
+    height: 30px;
+    line-height: 30px;
     padding: 0 10px;
     text-align: center;
     background-color: #00bda5;
@@ -234,22 +262,23 @@ position: relative;
     text-transform: uppercase;
     color: white;
     border-radius: 5px;
+    margin: 0 10px;
 }
 #app-marketplace h3 {
     display: inline-block;
-    width: 20%;
     height: 40px;
     line-height: 40px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 #app-marketplace p {
     display: inline-block;
-    width: 60%;
     height: 40px;
     line-height: 40px;
-    font-size: 13px;
+    font-size: 15px;
 }
+
+
                                         /* end navbar */
 
 
