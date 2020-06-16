@@ -152,54 +152,106 @@ header a {
 .dropdown-list:hover .dropdown-triangle {
     display:block;
 }
-.menu-3-col {
-    width: 800px;
+/* end topbar */
+
+/* start navbar */
+nav {
+height: 163px;
+background-color: #ffffff;
+padding-top: 78px;
+
 }
+nav .maxwidth {
+    position: relative;
+}
+
+.navbar-left {
+float: left;
+padding: 28px 0;
+}
+
+#img-logo {
+height: 28px;
+object-fit: contain;
+object-position: left;
+}
+
+.navbar-right {
+float: right;
+padding: 28px 0;
+line-height: 28px;
+
+}
+
+.navbar-right li {
+float: left;
+list-style: none;
+padding: 0 15px;
+position: relative;
+}
+
+
+
+.wide-column-menu {
+    width: 900px;
+    padding: 0 20px;
+    right: 0;
+}
+.wide-column-menu li {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+.wide-column-menu li:not(:last-child) {
+    border-bottom: 1px solid #cbd6e2;
+}
+
 .dropdown-item>li:hover {
-        background-color: #e5f5f8
+    background-color: #e5f5f8;
 }
-.dropdown-3column-item {
+.three-column-item {
     float: left;
     width: 33.3333%;
     padding: 0 25px;
 }
-
-
-                                        /* end topbar */
-
-                                        /* start navbar */
-nav {
-    height: 163px;
-    background-color: #ffffff;
-    padding-top: 78px;
-
+.three-column-item h4 {
+    font-size: 18px;
 }
 
-.navbar-left {
-    float: left;
-    padding: 28px 0;
+#free-crm {
+    padding: 10px;
+    background-color: #e5f5f8;
+    text-align: center;
+}
+.new {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    text-align: center;
+    background-color: #00bda5;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 5px;
+}
+#app-marketplace h3 {
+    display: inline-block;
+    width: 20%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
 }
 
-#img-logo {
-    height: 28px;
-    object-fit: contain;
-    object-position: left;
+#app-marketplace p {
+    display: inline-block;
+    width: 60%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 13px;
 }
-
-.navbar-right {
-    float: right;
-    padding: 28px 0;
-    line-height: 28px;
-}
-
-.navbar-right li {
-    float: left;
-    list-style: none;
-    padding: 0 15px;
-}
-
-
                                         /* end navbar */
+
 
                                         /* start jumbotron */
 .jumbotron {
