@@ -1,7 +1,7 @@
-htmlcss-hubspot
+**Hubspot**
 
+**_Linguaggi: HTML, CSS _**
 
-copia del suto hubspot al 1/2/2020
+Copia del suto hubspot.com al 1/2/2020 (https://web.archive.org/web/20200131055122/https://www.hubspot.com/)
 
-link
-https://web.archive.org/web/20200131055122/https://www.hubspot.com/
+![Preview-Hubspot](preview-hubspot.gif "Preview Hubspot")
