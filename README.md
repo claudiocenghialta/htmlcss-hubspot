@@ -1,6 +1,6 @@
 **Hubspot**
 
-**_ Linguaggi: HTML, CSS _**
+**_Linguaggi: HTML, CSS_**
 
 Copia del suto hubspot.com al 1/2/2020 (https://web.archive.org/web/20200131055122/https://www.hubspot.com/)
 
